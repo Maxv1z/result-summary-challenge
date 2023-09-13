@@ -1,0 +1,85 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+
+    font-family: Hanken Grotesk;
+}
+
+.result-block {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.left,
+.right {
+    width: 350px;
+    height: 400px;
+}
+
+.left {
+    background-image: linear-gradient(
+        to bottom,
+        hsl(252, 100%, 67%),
+        hsl(241, 81%, 54%)
+    );
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+    .result-round {
+        margin-top: 8px;
+        color: white;
+        background-image: linear-gradient(
+            to bottom,
+            hsla(256, 72%, 46%, 1),
+            hsla(241, 72%, 46%, 0)
+        );
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        text-align: center;
+
+        h1 {
+            font-size: 48px;
+            margin: 0px;
+        }
+
+        p {
+            font-size: 13px;
+            opacity: 0.7;
+        }
+    }
+
+    h2 {
+        margin-top: 25px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    p {
+        margin: 0;
+        opacity: 0.8;
+    }
+
+    .bottom-text {
+        width: 70%;
+        display: flex;
+        text-align: center;
+    }
+}
