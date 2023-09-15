@@ -170,3 +170,14 @@
         background-color: hsla(234, 85%, 45%, 0.15);
     }
 }
+
+@media (max-width: 375px) {
+    .right {
+        border-radius: 0px 0px 34px 34px;
+
+        box-shadow: 10px 17px 50px 0px rgba(0, 0, 0, 0.4);
+    }
+    .result-block {
+        flex-direction: column;
+    }
+}
